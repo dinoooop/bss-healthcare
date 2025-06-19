@@ -34,7 +34,7 @@
     position: fixed;
     display: none;
     right: 45px;
-    bottom: 90px;
+    bottom: 80px;
     z-index: 99;
 }
 
@@ -535,9 +535,8 @@
 /* FAQ Start*/
 .container-faq {
     background-color: white;
-  color: black;
   border-radius: 20px;
-  box-shadow: 0 5px 10px 0 rgb(0,0,0,0.25);
+  box-shadow: 0 5px 10px 0 rgb(0,0,0,0.15);
   margin: 20px 0;
 }
 .question {
@@ -548,6 +547,7 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  color: var(--dark);
 }
 
 .question::after {
@@ -592,10 +592,9 @@
 .whatsapp-button {
   position: fixed;
   bottom: 20px;
-  right: 35px;
-  background-color: #00baf3;
-  width: 60px;
-  height: 60px;
+  right: 45px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -612,7 +611,7 @@
 }
 
 .whatsapp-button img {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
 /* Whats app End*/
